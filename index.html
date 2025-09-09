@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+    <meta charset="UTF-8">
+    <title>Bienvenue sur Housing-Price</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+
+    <body>
+        <header
+            <h1>Bienvenue sur Housing-Price</h1>
+            <p>Le site qui prédit le prix EXACT de votre bien immobilier.</p>
+            <p>Notre modèle de machine learning analyse les caractéristiques de votre bien pour vous fournir une estimation précise et fiable.</p>
+        </header>
+
+        <div id="inputFormulaire">
+            <h1>Essayez-le dès maintenant en entrant les détails de votre propriété ci-dessous :</h1>
+
+            <input type="number" id="MedInc" placeholder="MedInc">
+            <input type="number" id="HouseAge" placeholder="Age de la maison">
+            <input type="number" id="AveRooms" placeholder="Nbre pieces">
+            <input type="number" id="AveBedrms" placeholder="Nbre chambres">
+            <input type="number" id="Population" placeholder="Population">
+            <input type="number" id="AveOccup" placeholder="Nbre occupants">
+            <input type="number" id="Latitude" placeholder="Latitude">
+            <input type="number" id="Longitude" placeholder="Longitude">
+            <button id="predictbutton">Prédire</button>
+
+        </div>
+
+        <div id="result">
+            <h1>Prédiction du prix d'une maison</h1>
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
