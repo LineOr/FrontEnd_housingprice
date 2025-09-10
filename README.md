@@ -3,6 +3,7 @@
 Interface web simple pour tester un modèle de Machine Learning (déployé avec FastAPI) qui prédit le prix des maisons en fonction de leurs caractéristiques.
 - Déploiement d’une interface web permettant d’interagir avec un modèle de prédiction du prix des maisons (données factices, non basées sur le réel) -
 
+
 => Fonctionnalités
 
 Formulaire HTML pour saisir les caractéristiques d’un logement :
@@ -23,9 +24,12 @@ Latitude : latitude géographique
 
 Longitude : longitude géographique
 
+
 Envoi des données à l’API FastAPI via fetch (méthode POST).
 
+
 Affichage du prix prédit directement sur la page.
+
 
 => Structure du projet
 FrontEnd_housingprice/
@@ -33,6 +37,7 @@ FrontEnd_housingprice/
 │── style.css    # Styles CSS pour la mise en page
 │── script.js    # Logique frontend : récupération inputs + appel API
 │── README.md    # Documentation du projet
+
 
 ⚙ Installation et utilisation
 
@@ -48,6 +53,7 @@ Assure-toi que ton API FastAPI est en ligne (ex : https://fastapi-housingprice.o
 
 Renseigne les champs et clique sur Prédire → le prix s’affiche.
 
+
 =>Backend associé
 
 Le frontend communique avec une API FastAPI qui expose un endpoint /predict.
@@ -56,6 +62,7 @@ Exemple de réponse de l’API :
 {
   "prediction": 245678.32
 }
+
 
 
 => Améliorations possibles
