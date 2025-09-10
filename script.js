@@ -55,7 +55,7 @@ button.addEventListener("click", function() {
     Longitude: longitude
   };
 
-  // Envoyer la requête POST ici aussi
+  // Envoyer la requête POST 
   fetch("https://fastapi-housingprice.onrender.com/predict", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -64,6 +64,6 @@ button.addEventListener("click", function() {
   .then(response => response.json())
   .then(result => {
     console.log("Résultat API :", result);
-    document.getElementById("result").innerText = "Prix prédit : " + result.prediction;
+    document.getElementById("result").innerText = "Prix prédit : " + result.predicted_price;
   });
 });
