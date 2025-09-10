@@ -1,6 +1,7 @@
 ### FrontEnd Housing Price ###
 
 Interface web simple pour tester un modèle de Machine Learning (déployé avec FastAPI) qui prédit le prix des maisons en fonction de leurs caractéristiques.
+- Déploiement d’une interface web permettant d’interagir avec un modèle de prédiction du prix des maisons (données factices, non basées sur le réel) -
 
 => Fonctionnalités
 
